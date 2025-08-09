@@ -7,16 +7,15 @@ config:
     full: true
     background: tint-plate
     hero:
-      name: Theme Plume
-      tagline: VuePress Next Theme
-      text: 一个简约的，功能丰富的 vuepress 文档&博客 主题
+      name: Github Pull requests by huyunan
+      text: 一个简约的，功能丰富的 github commits 记录文档
       actions:
         -
           theme: brand
-          text: 博客
+          text: commits
           link: /blog/
         -
           theme: alt
-          text: Github →
-          link: https://github.com/huyunan/github-commit
+          text: CSDN博客 →
+          link: https://blog.csdn.net/weixin_38883338
 ---

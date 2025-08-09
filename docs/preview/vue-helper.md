@@ -1,7 +1,7 @@
 ---
 title: vue-helper
 tags:
-  - vscode extensions
+  - vscode-extensions
   - vue helper
 createTime: 2025/07/25 14:23:17
 permalink: /article/70depak7/
