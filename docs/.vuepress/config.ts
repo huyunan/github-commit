@@ -15,16 +15,10 @@ import { plumeTheme } from 'vuepress-theme-plume'
 
 export default defineUserConfig({
   base: '/commit/',
-  lang: 'zh-CN',
   locales: {
     '/': {
       title: 'github-commit',
       lang: 'zh-CN',
-      description: 'github commit records',
-    },
-    '/en/': {
-      title: 'github-commit',
-      lang: 'en-US',
       description: 'github commit records',
     },
   },

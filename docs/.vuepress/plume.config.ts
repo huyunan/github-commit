@@ -11,8 +11,8 @@
  */
 
 import { defineThemeConfig } from 'vuepress-theme-plume'
-import { enNavbar, zhNavbar } from './navbar'
-import { enNotes, zhNotes } from './notes'
+import { zhNavbar } from './navbar'
+import { zhNotes } from './notes'
 
 /**
  * @see https://theme-plume.vuejs.press/config/basic/
@@ -68,33 +68,6 @@ export default defineThemeConfig({
 
       navbar: zhNavbar,
       notes: zhNotes,
-
-      /**
-       * 公告板
-       * @see https://theme-plume.vuejs.press/guide/features/bulletin/
-       */
-       // bulletin: {
-       //   layout: 'top-right',
-       //   contentType: 'markdown',
-       //   title: '',
-       //   content: '',
-       // },
-    },
-    '/en/': {
-      /**
-       * @see https://theme-plume.vuejs.press/config/basic/#profile
-       */
-      profile: {
-        avatar: 'https://theme-plume.vuejs.press/plume.png',
-        name: 'github-commit',
-        description: 'github commit records',
-        // circle: true,
-        // location: '',
-        // organization: '',
-      },
-
-      navbar: enNavbar,
-      notes: enNotes,
 
       /**
        * 公告板
