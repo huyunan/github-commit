@@ -30,9 +30,11 @@ const zhYqpNote = defineNoteConfig({
   // 所以请确保  markdown 文件的 permalink 都以 `link` 开头
   link: '/yqp',
   // 手动配置侧边栏结构
-  // sidebar: ['', 'foo', 'bar'],
+  sidebar: [
+    { text: '宜企拍', items: 'auto' },
+  ],
   // 根据文件结构自动生成侧边栏
-  sidebar: 'auto',
+  // sidebar: 'auto',
 })
 
 const zhDemoNote = defineNoteConfig({
