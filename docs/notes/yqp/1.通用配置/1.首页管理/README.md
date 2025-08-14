@@ -1,7 +1,7 @@
 ---
 title: 首页管理
 createTime: 2025/08/14 15:17:52
-permalink: /yqp/5j4ej4r7/
+permalink: /yqp/sdygxy1m/
 ---
 
 ## 工作内容

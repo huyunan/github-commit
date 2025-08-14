@@ -1,7 +1,7 @@
 ---
 title: 通用配置
 createTime: 2025/08/14 14:49:07
-permalink: /yqp/n2mspu0k/
+permalink: /yqp/gjl6asxr/
 ---
 
 ## 概述
