@@ -12,10 +12,10 @@ export const zhNavbar = defineNavbarConfig([
   { text: '标签', link: '/blog/tags/' },
   { text: '归档', link: '/blog/archives/' },
   {
-    text: '笔记',
+    text: '更多',
     items: [
       { text: '宜企拍', link: '/notes/yqp/README.md' },
-      { text: '示例', link: '/notes/demo/README.md' }
+      { text: '友情链接', link: '/friends/' }
     ]
   },
 ])
