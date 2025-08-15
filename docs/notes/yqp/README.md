@@ -12,6 +12,26 @@ permalink: /yqp/
 
 ![yqp](/yqp/system.png)
 
+## 所用技术
+
+#### web端
+- vue2、vuex
+- element-ui 框架
+- axios
+- es6
+- @vue-office/docx、@vue-office/excel、@vue-office/pdf
+- @hanyk/mcommon
+- @tinymce/tinymce-vue 富文本编辑器
+
+#### app端
+- vue2、vuex
+- tailwindcss
+- uni-app
+- uView 框架
+- mescroll-uni 下拉刷新组件
+- axios
+- es6
+
 ## 工作内容
 
 - [通用配置](./通用配置.md)
