@@ -6,10 +6,10 @@ permalink: /friends/
 contentPosition: after
 list:
   -
-    name: react openChat
-    link: https://github.com/pengzhanbo
-    avatar: https://github.com/pengzhanbo.png
-    desc: 即使慢，驰而不息，纵会落后，纵会失败，但必须能够到达他所向的目标。
+    name: openChat
+    link: http://huyunan.xyz/open
+    avatar: https://i-blog.csdnimg.cn/direct/d2c61b7b276d431f8622e451f79b95ec.png
+    desc: 一个开源网站用 react 做的 openChat
   -
     name: JapanKana
     link: http://huyunan.xyz/japan
