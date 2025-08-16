@@ -1,6 +1,6 @@
-# github-commit
+# github 记录
 
-网站使用 [vuepress](https://vuepress.vuejs.org/) 和 [vuepress-theme-plume](https://github.com/huyunan/github-commit) 构建生成。
+网站使用 [vuepress](https://vuepress.vuejs.org/) 和 [vuepress-theme-plume](https://github.com/huyunan/github 记录) 构建生成。
 
 ## Install
 

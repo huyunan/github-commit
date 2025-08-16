@@ -59,7 +59,7 @@ export default defineThemeConfig({
        */
       profile: {
         avatar: 'https://theme-plume.vuejs.press/plume.png',
-        name: 'github-commit',
+        name: 'github 记录',
         description: 'github commit records',
         // circle: true,
         // location: '',

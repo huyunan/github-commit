@@ -17,7 +17,7 @@ export default defineUserConfig({
   base: '/commit/',
   locales: {
     '/': {
-      title: 'github-commit',
+      title: 'github 记录',
       lang: 'zh-CN',
       description: 'github commit records',
     },

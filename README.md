@@ -1,6 +1,6 @@
-# github-commit
+# github 记录
 
-The Site is generated using [vuepress](https://vuepress.vuejs.org/) and [vuepress-theme-plume](https://github.com/huyunan/github-commit)
+The Site is generated using [vuepress](https://vuepress.vuejs.org/) and [vuepress-theme-plume](https://github.com/huyunan/github 记录)
 
 ## Install
 
