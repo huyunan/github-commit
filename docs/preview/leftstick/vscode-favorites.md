@@ -14,6 +14,7 @@ permalink: /article/yajjqr8b/
 add: Delete current group.
 
 ### Pull requests
+
 [leftstick/vscode-favorites/pull/88](https://github.com/leftstick/vscode-favorites/pull/88)
 
 ## 详细描述
