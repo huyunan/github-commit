@@ -6,15 +6,15 @@ permalink: /friends/
 contentPosition: after
 list:
   -
-    name: openChat
-    link: http://huyunan.xyz/open
-    avatar: https://i-blog.csdnimg.cn/direct/d2c61b7b276d431f8622e451f79b95ec.png
-    desc: 一个开源网站用 react 做的 openChat
-  -
     name: JapanKana
     link: http://huyunan.xyz/japan
     avatar: http://huyunan.xyz/japan/assets/imgs/japankana256.ico
     desc: 一款基于Electron开发的日本假名学习软件 japankana，适用于Windows10。软件无病毒，提供免安装版和多种系统版本。
+  -
+    name: openChat
+    link: http://huyunan.xyz/open
+    avatar: https://chat.antonai.com/favicon.ico
+    desc: 一个开源网站用 react 做的 openChat
   -
     name: 宜企拍
     link: https://www.yqp-crrc.com/yqp-index/#/home
