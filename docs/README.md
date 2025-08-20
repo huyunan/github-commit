@@ -1,5 +1,6 @@
 ---
 pageLayout: home
+backToTop: false
 externalLinkIcon: false
 config:
   -

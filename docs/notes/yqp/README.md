@@ -4,14 +4,6 @@ createTime: 2025/08/14 13:50:16
 permalink: /yqp/
 ---
 
-## 概述
-
-[宜企拍官网](https://www.yqp-crrc.com/yqp-index/#/home)
-
-![yqp](/yqp/home.png)
-
-![yqp](/yqp/system.png)
-
 ## 所用技术
 
 #### web端
@@ -32,6 +24,18 @@ permalink: /yqp/
 - axios
 - es6
 
+## 概述
+
+[宜企拍官网](https://www.yqp-crrc.com/yqp-index/#/home)
+
+![yqp](/yqp/home.png)
+
+![yqp](/yqp/system.png)
+
 ## 工作内容
 
-- [通用配置](./通用配置.md)
+- [通用配置](./1.通用配置/README.md)
+- [个人信息](./2.个人信息.md)
+- [会员审核](./3.会员审核.md)
+- [首页店铺](./4.首页店铺.md)
+- [APP](./5.APP.md)

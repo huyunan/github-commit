@@ -11,3 +11,4 @@ permalink: /issues/s5xzl3og/
    暂时解决方法：node_modules\vuepress-theme-plume\lib\node\index.js
    这里写死了是博客改为 blogText: "记录",
 2. /blog/ 的博客改为记录后，面包屑名称还是博客，查看编译后文件是博客。
+3. backToTop 换成向下前头，从新加一个属性。

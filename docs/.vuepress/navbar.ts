@@ -9,12 +9,17 @@ import { defineNavbarConfig } from 'vuepress-theme-plume'
 export const zhNavbar = defineNavbarConfig([
   { text: '首页', link: '/' },
   { text: '记录', link: '/blog/' },
-  { text: '标签', link: '/blog/tags/' },
+  // { text: '标签', link: '/blog/tags/' },
+  {
+    text: '工作内容',
+    items: [
+      { text: '宜企拍', link: '/notes/yqp/README.md' }
+    ]
+  },
   { text: '归档', link: '/blog/archives/' },
   {
     text: '更多',
     items: [
-      { text: '宜企拍', link: '/notes/yqp/README.md' },
       { text: '友情链接', link: '/friends/' },
       { text: '问题', link: '/notes/issues/README.md' }
     ]
