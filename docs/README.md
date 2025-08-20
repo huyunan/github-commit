@@ -82,4 +82,51 @@ config:
       -
         title: 相关高质量博客
         description: vscode.window.activeTextEditor 获取不到 png 图片路径问题 | <b>6</b> 点赞<br>vscode 源码编译 | <b>15</b> 点赞<br>怎么开发一个实用的 Edge 插件 | <b>23</b> 点赞<br>vue2 中的 .sync 修饰符 | <b>12</b> 点赞<br>vscode 在调试控制台按 backspace 键时，会删除代码内容 | <b>16</b> 点赞<br>window.innerWidth 不准确 | <b>3</b> 点赞<br>css 中 content “\e6d0“ 怎么变成图标的？ | <b>5</b> 点赞<br>UniDevTools - UniApp(前端app)调试工具使用 | <b>11</b> 点赞<br>4个纯CSS自定义的简单而优雅的滚动条样式 | <b>2</b> 点赞<br>express 怎么搭建 WebSocket 服务器 | <b>5</b> 点赞<br>vscode chrome调试怎么在所有浏览器都好使 | <b>13</b> 点赞<br>JS toFixed的坑以及四舍五入实现方法 | <b>25</b> 点赞<br>在windows10系统上搭建npm仓库源 | <b>9</b> 点赞<br>
+  -
+    type: custom
 ---
+
+<svg t="1755683953015" class="scroll-hint" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3080" width="48" height="48">
+<path d="M597.333 640V85.333c0-23.68-19.285-42.666-43.093-42.666h-84.48a42.667 42.667 0 0 0-43.093 42.666V640h-84.95c-47.232 0-62.805 30.55-34.56 68.267l153.643 204.8c28.501 37.973 74.112 37.717 102.4 0l153.6-204.8C745.301 670.293 729.6 640 682.283 640h-84.95z" fill="#333333" p-id="3081"></path>
+</svg>
+
+<style>
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.scroll-hint {
+  width: 28px;
+  height: 28px;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  z-index: 100;
+  animation: blink 1.2s infinite;
+}
+</style>
+<script setup>
+import { onMounted, onUnmounted } from 'vue';
+
+const handleScroll = () => {
+  const scrollTop = document.documentElement.scrollTop
+  const clientHeight = document.documentElement.clientHeight * 2 - 200
+  const hint = document.getElementsByClassName('scroll-hint')[0]
+  console.log(scrollTop, clientHeight);
+  if (scrollTop >= clientHeight) {
+    hint.style.bottom = '-40px'
+  } else {
+    hint.style.bottom = '20px'
+  }
+};
+
+onMounted(() => {
+  window.addEventListener('scroll', handleScroll);
+});
+ 
+onUnmounted(() => {
+  window.removeEventListener('scroll', handleScroll);
+});
+</script>
