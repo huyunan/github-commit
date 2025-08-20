@@ -114,7 +114,6 @@ const handleScroll = () => {
   const scrollTop = document.documentElement.scrollTop
   const clientHeight = document.documentElement.clientHeight * 2 - 200
   const hint = document.getElementsByClassName('scroll-hint')[0]
-  console.log(scrollTop, clientHeight);
   if (scrollTop >= clientHeight) {
     hint.style.bottom = '-40px'
   } else {
