@@ -23,7 +23,7 @@ export default defineThemeConfig({
   appearance: true,  // 配置 深色模式
 
   social: [
-    { icon: 'github', link: '/' },
+    { icon: 'github', link: 'https://github.com/huyunan' },
   ],
   // navbarSocialInclude: ['github'], // 允许显示在导航栏的 social 社交链接
   // aside: true, // 页内侧边栏， 默认显示在右侧
@@ -60,7 +60,7 @@ export default defineThemeConfig({
       profile: {
         avatar: 'https://theme-plume.vuejs.press/plume.png',
         name: 'github 记录',
-        description: 'github commit records',
+        description: 'github 记录',
         // circle: true,
         // location: '',
         // organization: '',
