@@ -1,5 +1,7 @@
 ---
 title: vscode
+createTime: 2025/08/19 15:27:53
+permalink: /issues/g1hmkqre/
 ---
 
 ## 概述
