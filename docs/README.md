@@ -81,11 +81,6 @@ config:
         details: dufs做的个人文件托管服务器，可以进行下载上传编辑等功能。
       -
         title: 
-        link: 
-        icon: { 
-          src: 
-        }
-        details: 
   -
     type: image-text
     title: CSDN博客
