@@ -65,6 +65,27 @@ config:
           src: https://store-images.s-microsoft.com/image/apps.12656.b61bb6e6-71d8-41c4-90e7-99b8ed7bc957.fc9fb8b3-e0f4-403c-9b27-f68254b6c1be.129918d9-3126-4a78-8dfc-39875ae9e746?mode=scale&h=100&q=90&w=100
         }
         details: 自定义标签页-百度是一款Edge浏览器插件。
+      -
+        title: openChat
+        link: http://huyunan.xyz/open
+        icon: { 
+          src: https://chat.antonai.com/favicon.ico
+        }
+        details: 一个开源网站用 react 做的 openChat。
+      -
+        title: dufs 文件服务器
+        link: http://huyunan.xyz/dufs
+        icon: { 
+          src: http://huyunan.xyz/dufs/__dufs_v0.44.0__/favicon.ico
+        }
+        details: dufs做的个人文件托管服务器，可以进行下载上传编辑等功能。
+      -
+        title: 
+        link: 
+        icon: { 
+          src: 
+        }
+        details: 
   -
     type: image-text
     title: CSDN博客
