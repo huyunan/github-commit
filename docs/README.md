@@ -36,7 +36,7 @@ config:
         icon: { 
           src: https://www.yqp-crrc.com/yqp-index/favicon.ico
         }
-        details: “宜企拍”是中国中车绿色循环经济交易电商平台。“宜企拍”设置竞价、进场、商城三种交易模式。平台交易额已经达到114亿元。
+        details: 宜企拍是中国中车绿色循环经济交易电商平台。宜企拍设置竞价、进场、商城三种交易模式。平台交易额已经达到114亿元。
       -
         title: favorite
         link: https://marketplace.visualstudio.com/items?itemName=yunan-hu.vscode-favourite
@@ -129,7 +129,7 @@ import { onMounted, onUnmounted } from 'vue';
 
 const handleScroll = () => {
   const scrollTop = document.documentElement.scrollTop
-  const clientHeight = document.documentElement.clientHeight * 2 - 200
+  const clientHeight = document.documentElement.clientHeight * 2
   const hint = document.getElementsByClassName('scroll-hint')[0]
   if (scrollTop >= clientHeight) {
     hint.style.bottom = '-40px'

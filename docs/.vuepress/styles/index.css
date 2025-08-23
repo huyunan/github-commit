@@ -12,3 +12,8 @@
 .vp-back-to-top {
   display: none;
 }
+.vp-home-features {
+  img {
+    margin-bottom: 20px;
+  }
+}
