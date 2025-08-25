@@ -7,7 +7,6 @@ import { defineClientConfig } from 'vuepress/client'
 // import CustomComponent from './theme/components/Custom.vue'
 
 import './styles/index.css'
-import './js/baidu.js'
 
 export default defineClientConfig({
   enhance({ app }) {
