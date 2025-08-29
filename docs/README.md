@@ -69,7 +69,7 @@ config:
         title: openChat
         link: http://huyunan.xyz/open
         icon: { 
-          src: https://chat.antonai.com/favicon.ico
+          src: http://huyunan.xyz/open/favicon.ico
         }
         details: 一个开源网站用 react 做的 openChat。
       -
@@ -112,7 +112,6 @@ config:
   0%, 100% { opacity: 1; }
   50% { opacity: 0; }
 }
-
 .scroll-hint {
   width: 28px;
   height: 28px;
@@ -122,6 +121,9 @@ config:
   transform: translate(-50%, 0);
   z-index: 100;
   animation: blink 1.2s infinite;
+}
+.vp-home-custom {
+  padding: 0;
 }
 </style>
 <script setup>
