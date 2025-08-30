@@ -80,7 +80,12 @@ config:
         }
         details: dufs做的个人文件托管服务器，可以进行下载上传编辑等功能。
       -
-        title: 
+        title: 面试总结
+        link: http://huyunan.xyz/interview
+        icon: { 
+          src: http://huyunan.xyz/interview/favicon.png
+        }
+        details: 个人面试记录，以及常遇的面试题，收到 offer 记录。
   -
     type: image-text
     title: CSDN博客
