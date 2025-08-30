@@ -55,9 +55,11 @@ export default defineThemeConfig({
        * @see https://theme-plume.vuejs.press/config/basic/#profile
        */
       profile: {
-        avatar: 'https://theme-plume.vuejs.press/plume.png',
+        avatar: 'https://avatars.githubusercontent.com/u/40879024?v=4',
         name: 'github 记录',
-        description: 'github 记录',
+        description: 'pull request 记录',
+        location: 'BeiJing, China',
+        organization: 'huyunan',
         // circle: true,
         // location: '',
         // organization: '',
