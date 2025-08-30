@@ -80,7 +80,7 @@ config:
         }
         details: dufs做的个人文件托管服务器，可以进行下载上传编辑等功能。
       -
-        title: 面试总结
+        title: 面试总结（实现加载大图片从模糊到清晰）
         link: http://huyunan.xyz/interview
         icon: { 
           src: http://huyunan.xyz/interview/favicon.png
