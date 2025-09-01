@@ -24,6 +24,11 @@ groups:
         link: https://www.xunjietupian.com/yasuo/
         avatar: https://www.xunjietupian.com/_nuxt/img/icon_logo.9a5faf5.png
         desc: 在线图片压缩功能，可批量压缩PNG、JPG、GIF等图片格式的文件大小。
+      -
+        name: 免费PDF在线转换器
+        link: https://smallpdf.com/cn/pdf-to-jpg#r=convert-to-image
+        avatar: https://smallpdf.com/favicon.png
+        desc: 目前来看不收费，使用PDF转图像，像素很高，不带水印。
 ---
 
 <!-- 自定义内容 markdown 内容 会插入到 友情链接页中 -->
