@@ -29,6 +29,11 @@ groups:
         link: https://smallpdf.com/cn/pdf-to-jpg#r=convert-to-image
         avatar: https://smallpdf.com/favicon.png
         desc: 目前来看不收费，使用PDF转图像，像素很高，不带水印。
+      -
+        name: 一听音乐
+        link: https://www.1ting.com/
+        avatar: https://www.1ting.com/favicon.ico
+        desc: 可以在 f12 里查看 mp3 链接进行下载。
 ---
 
 <!-- 自定义内容 markdown 内容 会插入到 友情链接页中 -->
