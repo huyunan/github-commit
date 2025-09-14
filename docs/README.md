@@ -59,6 +59,13 @@ config:
         }
         details: 恢复标签页是一款Edge浏览器插件。 
       -
+        title: 定时提醒
+        link: https://microsoftedge.microsoft.com/addons/detail/%E5%AE%9A%E6%97%B6%E6%8F%90%E9%86%92/ogjjfpjmemnmiemjpjjjgjpaicjeilbk
+        icon: { 
+          src: https://store-images.s-microsoft.com/image/apps.50155.e0dc0548-f454-4aad-a778-bcd269de6e45.99403dab-b99b-4398-955f-a0cbb2ae2125.d948155f-6ec2-431c-b211-aa92e41d4199
+        }
+        details: 定时提醒的Edge浏览器插件，可以用来提醒上班族不要久坐。。
+      -
         title: 自定义标签页-百度
         link: https://microsoftedge.microsoft.com/addons/detail/%E8%87%AA%E5%AE%9A%E4%B9%89%E6%A0%87%E7%AD%BE%E9%A1%B5%E7%99%BE%E5%BA%A6/kijjkjaoiknpgnbmlfpalomekmdafaha
         icon: { 
@@ -73,19 +80,19 @@ config:
         }
         details: 一个开源网站用 react 做的 openChat。
       -
-        title: dufs 文件服务器
-        link: http://huyunan.xyz/dufs
-        icon: { 
-          src: http://huyunan.xyz/dufs/__dufs_v0.44.0__/favicon.ico
-        }
-        details: dufs做的个人文件托管服务器，可以进行下载上传编辑等功能。
-      -
         title: 面试总结（实现加载大图片从模糊到清晰）
         link: http://huyunan.xyz/interview
         icon: { 
           src: http://huyunan.xyz/interview/favicon.png
         }
         details: 个人面试记录，以及常遇的面试题，收到 offer 记录。
+      -
+        title: dufs 文件服务器
+        link: http://huyunan.xyz/dufs
+        icon: { 
+          src: http://huyunan.xyz/dufs/__dufs_v0.44.0__/favicon.ico
+        }
+        details: dufs做的个人文件托管服务器，可以进行下载上传编辑等功能。
   -
     type: image-text
     title: CSDN博客

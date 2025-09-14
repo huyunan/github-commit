@@ -14,7 +14,7 @@ import { defineUserConfig } from 'vuepress'
 import { plumeTheme } from 'vuepress-theme-plume'
 
 export default defineUserConfig({
-  base: '/commit/',
+  base: '/commit2/',
   locales: {
     '/': {
       title: 'github 记录',
