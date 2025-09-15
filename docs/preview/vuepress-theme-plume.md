@@ -19,6 +19,6 @@ permalink: /article/cezeska9/
 
 ### PR 详情图
 
-<GithubView src="/reborn-net/UniDevTools/pull/8" />
+<GithubView :src="window.location.origin + '/reborn-net/UniDevTools/pull/8'" />
 
 <CustomComponent />
