@@ -52,6 +52,13 @@ config:
         }
         details: 新建标签页是一款Edge浏览器插件。 
       -
+        title: New Tab
+        link: https://microsoftedge.microsoft.com/addons/detail/new-tab/hjaaalmgdnpnjpphmgkmecomogelbhil
+        icon: { 
+          src: https://store-images.s-microsoft.com/image/apps.53620.eb2ca44e-9099-4c8c-a461-7a7d2eccc619.89eeea9f-12f4-4b69-95ac-61ac5085b8c8.95035cc7-0428-447e-a70b-73fe6bbe63bb?mode=scale&h=100&q=90&w=100
+        }
+        details: 新建标签页是一款Edge浏览器插件。 
+      -
         title: 恢复标签页
         link: https://microsoftedge.microsoft.com/addons/detail/%E6%81%A2%E5%A4%8D%E6%A0%87%E7%AD%BE%E9%A1%B5/dkgodjiipeocfndfkcpijhbdjgdhcgjn
         icon: { 
