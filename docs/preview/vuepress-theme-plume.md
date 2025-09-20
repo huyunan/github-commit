@@ -1,5 +1,6 @@
 ---
 title: vuepress-theme-plume
+icon: pr/2025/092002.png
 tags:
   - vue
   - vuepress
@@ -8,6 +9,8 @@ permalink: /article/cezeska9/
 ---
 
 ## 概述
+
+![pr](/pr/2025/092002.png)
 
 ![plume](/vuepress/signdown.gif)
 
@@ -19,6 +22,7 @@ permalink: /article/cezeska9/
 
 ### PR 详情图
 
-<GithubView :src="window.location.origin + '/reborn-net/UniDevTools/pull/8'" />
+![pr](/pr/2025/092001.png)
+<!-- <GithubView :src="window.location.origin + '/reborn-net/UniDevTools/pull/8'" /> -->
 
 <CustomComponent />
