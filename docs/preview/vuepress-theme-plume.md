@@ -1,6 +1,9 @@
 ---
 title: vuepress-theme-plume
-icon: pr/2025/092002.png
+cover: /pr/2025/092003.png
+coverStyle:
+  layout: left
+  ratio: 0.5
 tags:
   - vue
   - vuepress

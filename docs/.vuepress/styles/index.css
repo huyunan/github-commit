@@ -17,3 +17,6 @@
     margin-bottom: 20px;
   }
 }
+.blog-post-item-content {
+  justify-content: center;
+}

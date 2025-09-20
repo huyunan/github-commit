@@ -21,6 +21,7 @@ export const zhNavbar = defineNavbarConfig([
     text: '更多',
     items: [
       { text: '友情链接', link: '/friends/' },
+      { text: '博客封面截图', link: '/blogcover/' },
       { text: '问题', link: '/notes/issues/README.md' }
     ]
   },
