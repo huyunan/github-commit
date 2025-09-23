@@ -34,6 +34,11 @@ groups:
         link: https://www.1ting.com/
         avatar: https://www.1ting.com/favicon.ico
         desc: 可以在 f12 里查看 mp3 链接进行下载。
+      -
+        name: Base64 转换器
+        link: https://www.chahuo.com/base64-converter.html
+        avatar: https://www.chahuo.com/favicon.ico
+        desc: 在线base64编码、解码工具。
 ---
 
 <!-- 自定义内容 markdown 内容 会插入到 友情链接页中 -->
