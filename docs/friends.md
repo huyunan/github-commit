@@ -39,6 +39,11 @@ groups:
         link: https://www.chahuo.com/base64-converter.html
         avatar: https://www.chahuo.com/favicon.ico
         desc: 在线base64编码、解码工具。
+      -
+        name: PDF在线编辑器
+        link: https://tools.pdf24.org/zh/edit-pdf
+        avatar: https://tools.pdf24.org/static/img/pageIcons/svg/edit-pdf.svg?v=5ca75609
+        desc: PDF文件的在线编辑器，可以添加文字是覆盖那种并不是像word一样直接修改。
 ---
 
 <!-- 自定义内容 markdown 内容 会插入到 友情链接页中 -->
