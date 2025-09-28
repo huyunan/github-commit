@@ -44,6 +44,11 @@ groups:
         link: https://tools.pdf24.org/zh/edit-pdf
         avatar: https://tools.pdf24.org/static/img/pageIcons/svg/edit-pdf.svg?v=5ca75609
         desc: PDF文件的在线编辑器，可以添加文字是覆盖那种并不是像word一样直接修改。
+      -
+        name: GIF 动图压缩工具
+        link: https://docsmall.com/gif-compress/
+        avatar: https://docsmall.com/favicon.png
+        desc: 免费在线 GIF 动图压缩工具。
 ---
 
 <!-- 自定义内容 markdown 内容 会插入到 友情链接页中 -->
