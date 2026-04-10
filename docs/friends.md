@@ -49,6 +49,11 @@ groups:
         link: https://docsmall.com/gif-compress/
         avatar: https://docsmall.com/favicon.png
         desc: 免费在线 GIF 动图压缩工具。
+      -
+        name: 在线 SVG 编辑
+        link: https://gtcolor.com/svg/index.html
+        avatar: https://gtcolor.com/svg/images/logo.png
+        desc: 免费在线 SVG 编辑。
 ---
 
 <!-- 自定义内容 markdown 内容 会插入到 友情链接页中 -->
