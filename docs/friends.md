@@ -54,6 +54,16 @@ groups:
         link: https://gtcolor.com/svg/index.html
         avatar: https://gtcolor.com/svg/images/logo.png
         desc: 免费在线 SVG 编辑。
+      -
+        name: freeconvert
+        link: https://www.freeconvert.com/png-to-svg
+        avatar: https://cdn.freeconvert.com/star.svg
+        desc: 免费在线 PNG 转 SVG。
+      -
+        name: PS在线编辑器
+        link: https://tugaigai.com/online_ps/
+        avatar: https://tugaigai.com/favicon.ico
+        desc: 免费在线PS。
 ---
 
 <!-- 自定义内容 markdown 内容 会插入到 友情链接页中 -->
