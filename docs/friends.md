@@ -64,6 +64,11 @@ groups:
         link: https://tugaigai.com/online_ps/
         avatar: https://tugaigai.com/favicon.ico
         desc: 免费在线PS。
+      -
+        name: excel在线图表生成工具
+        link: https://www.meta-chart.com/pie#/your-charts
+        avatar: https://www.meta-chart.com/assets/images/logo.png
+        desc: 试过可以生成很漂亮的圆形图，截屏保存后可以用在PPT中。
 ---
 
 <!-- 自定义内容 markdown 内容 会插入到 友情链接页中 -->
