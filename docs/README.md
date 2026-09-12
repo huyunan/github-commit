@@ -179,19 +179,23 @@ const top = ref(0)
 const { isDark } = useData()
 
 const handleScroll = () => {
-  const scrollTop = document.documentElement.scrollTop
-  top.value = scrollTop
+  if (typeof document !== "undefined") {
+    const scrollTop = document.documentElement.scrollTop
+    top.value = scrollTop
+  }
 };
 
 const show = computed(() => {
-  const clientHeight = document.documentElement.clientHeight
-  const scrollHeight = document.documentElement.scrollHeight
-  if (scrollHeight < clientHeight)
-    return false
-  else if (top.value < 160)
-    return true
-  else
-    return false
+  if (typeof document !== "undefined") {
+    const clientHeight = document.documentElement.clientHeight
+    const scrollHeight = document.documentElement.scrollHeight
+    if (scrollHeight < clientHeight)
+      return false
+    else if (top.value < 160)
+      return true
+    else
+      return false
+  }
 })
 onMounted(() => {
   window.addEventListener('scroll', handleScroll);
