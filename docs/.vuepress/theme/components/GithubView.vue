@@ -7,44 +7,43 @@ const props = defineProps<{
 
 let flag = true
 function onload() {
-  if (typeof document === "undefined") {
-    return;
-  }
-  const iframe = document.getElementById('gitIframe');
-  const iframeDoc = iframe.contentDocument || iframe.contentWindow.document;
-  iframeDoc.addEventListener('click', function() {
-    console.log('Iframe hash changed');
-    flag = true
-    onload()
-  });
-  const partialheader = iframeDoc.getElementById("partial-discussion-header")
-  if (!partialheader) {
-    if (!flag) return
-    setTimeout(() => {
-      flag = false
+  if (typeof window !== "undefined" && typeof document !== "undefined") {
+    const iframe = document.getElementById('gitIframe');
+    const iframeDoc = iframe.contentDocument || iframe.contentWindow.document;
+    iframeDoc.addEventListener('click', function() {
+      console.log('Iframe hash changed');
+      flag = true
       onload()
-    }, 10000);
-  } else {
-    partialheader.style.display = 'none'
-    const headerwrapper = iframeDoc.getElementsByClassName('header-wrapper')
-    if (headerwrapper && headerwrapper[0]) {
-      headerwrapper[0].style.display = 'none'
-    }
-    const stickyheader = iframeDoc.getElementById("sticky-header-backdrop")
-    if (stickyheader) {
-      stickyheader.style.display = 'none'
-    }
-    const footer = iframeDoc.getElementsByTagName('footer')
-    if (footer && footer[0]) {
-      footer[0].style.display = 'none'
-    }
-    const sidebar = iframeDoc.getElementsByClassName('Layout-sidebar')
-    if (sidebar && sidebar[0]) {
-      sidebar[0].style.display = 'none'
-    }
-    const timeline = iframeDoc.getElementsByClassName('discussion-timeline-actions')
-    if (timeline && timeline[0]) {
-      timeline[0].style.display = 'none'
+    });
+    const partialheader = iframeDoc.getElementById("partial-discussion-header")
+    if (!partialheader) {
+      if (!flag) return
+      setTimeout(() => {
+        flag = false
+        onload()
+      }, 10000);
+    } else {
+      partialheader.style.display = 'none'
+      const headerwrapper = iframeDoc.getElementsByClassName('header-wrapper')
+      if (headerwrapper && headerwrapper[0]) {
+        headerwrapper[0].style.display = 'none'
+      }
+      const stickyheader = iframeDoc.getElementById("sticky-header-backdrop")
+      if (stickyheader) {
+        stickyheader.style.display = 'none'
+      }
+      const footer = iframeDoc.getElementsByTagName('footer')
+      if (footer && footer[0]) {
+        footer[0].style.display = 'none'
+      }
+      const sidebar = iframeDoc.getElementsByClassName('Layout-sidebar')
+      if (sidebar && sidebar[0]) {
+        sidebar[0].style.display = 'none'
+      }
+      const timeline = iframeDoc.getElementsByClassName('discussion-timeline-actions')
+      if (timeline && timeline[0]) {
+        timeline[0].style.display = 'none'
+      }
     }
   }
 }
