@@ -25,9 +25,9 @@ config:
     features:
       -
         title: JapanKana
-        link: http://huyunan.xyz/japan
+        link: http://huyunan.cn/japan
         icon: { 
-          src: http://huyunan.xyz/japan/assets/imgs/japankana256.ico
+          src: http://huyunan.cn/japan/assets/imgs/japankana256.ico
         }
         details: 一款基于Electron开发的日本假名学习软件 japankana，适用于Windows10。软件无病毒，提供免安装版和多种系统版本。
       -
@@ -81,23 +81,23 @@ config:
         details: 自定义标签页-百度是一款Edge浏览器插件。
       -
         title: openChat
-        link: http://huyunan.xyz/open
+        link: http://huyunan.cn/open
         icon: { 
-          src: http://huyunan.xyz/open/favicon.ico
+          src: http://huyunan.cn/open/favicon.ico
         }
         details: 一个开源网站用 react 做的 openChat。
       -
         title: 面试总结（实现加载大图片从模糊到清晰）
-        link: http://huyunan.xyz/interview
+        link: http://huyunan.cn/interview
         icon: { 
-          src: http://huyunan.xyz/interview/favicon.png
+          src: http://huyunan.cn/interview/favicon.png
         }
         details: 个人面试记录，以及常遇的面试题，收到 offer 记录。
       -
         title: dufs 文件服务器
-        link: http://huyunan.xyz/dufs
+        link: http://huyunan.cn/dufs
         icon: { 
-          src: http://huyunan.xyz/dufs/__dufs_v0.44.0__/favicon.ico
+          src: http://huyunan.cn/dufs/__dufs_v0.44.0__/favicon.ico
         }
         details: dufs做的个人文件托管服务器，可以进行下载上传编辑等功能。
   -
