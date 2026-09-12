@@ -7,7 +7,9 @@ const props = defineProps<{
 
 let flag = true
 function onload() {
-  console.log(11111111111)
+  if (typeof document === "undefined") {
+    return;
+  }
   const iframe = document.getElementById('gitIframe');
   const iframeDoc = iframe.contentDocument || iframe.contentWindow.document;
   iframeDoc.addEventListener('click', function() {
