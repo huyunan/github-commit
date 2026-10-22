@@ -9,7 +9,7 @@ config:
     background: tint-plate
     hero:
       name: Github Pull requests by huyunan
-      text: 一个简约的，功能丰富的 github commits 记录文档<br><br>注：CSDN博客已经有 787 原创、排名 988
+      text: 一个简约的，功能丰富的 github commits 记录文档<br><br>注：CSDN博客已经有 934 原创、最高排名 988
       actions:
         -
           theme: brand
@@ -108,16 +108,16 @@ config:
     list:
       -
         title: 总访问量
-        description: 2,995,112
+        description: 3,331,164
       -
         title: 原创|排名|粉丝
-        description: 788|988|716
+        description: 934|988|833
       -
         title: 个人成就
-        description: 获得2,089次点赞<br>内容获得257次评论<br>获得3,004次收藏<br>代码片获得3,478次分享
+        description: 获得2,618次点赞<br>内容获得385次评论<br>获得3,303次收藏<br>代码片获得14,363次分享
       -
         title: 相关高质量博客
-        description: vscode.window.activeTextEditor 获取不到 png 图片路径问题 | <b>6</b> 点赞<br>vscode 源码编译 | <b>15</b> 点赞<br>怎么开发一个实用的 Edge 插件 | <b>23</b> 点赞<br>vue2 中的 .sync 修饰符 | <b>12</b> 点赞<br>vscode 在调试控制台按 backspace 键时，会删除代码内容 | <b>16</b> 点赞<br>window.innerWidth 不准确 | <b>3</b> 点赞<br>css 中 content “\e6d0“ 怎么变成图标的？ | <b>5</b> 点赞<br>UniDevTools - UniApp(前端app)调试工具使用 | <b>11</b> 点赞<br>4个纯CSS自定义的简单而优雅的滚动条样式 | <b>2</b> 点赞<br>express 怎么搭建 WebSocket 服务器 | <b>5</b> 点赞<br>vscode chrome调试怎么在所有浏览器都好使 | <b>13</b> 点赞<br>JS toFixed的坑以及四舍五入实现方法 | <b>25</b> 点赞<br>在windows10系统上搭建npm仓库源 | <b>9</b> 点赞<br>
+        description: <a href="https://yunan.blog.csdn.net/article/details/82084412?spm=1001.2014.3001.5502">Ubuntu16.04系统安装教程 | <b>9</b> 点赞</a><br><a href="https://yunan.blog.csdn.net/article/details/150010311?spm=1011.2415.3001.5331">vscode.window.activeTextEditor 获取不到 png 图片路径问题 | <b>6</b> 点赞</a><br><a href="https://yunan.blog.csdn.net/article/details/149282052?spm=1011.2415.3001.5331">vscode 源码编译 | <b>15</b> 点赞</a><br><a href="https://yunan.blog.csdn.net/article/details/148102124?spm=1011.2415.3001.5331">怎么开发一个实用的 Edge 插件 | <b>23</b> 点赞</a><br><a href="https://yunan.blog.csdn.net/article/details/147905028?spm=1011.2415.3001.5331">vue2 中的 .sync 修饰符 | <b>12</b> 点赞</a><br><a href="https://yunan.blog.csdn.net/article/details/149326126?spm=1011.2415.3001.5331">vscode 在调试控制台按 backspace 键时，会删除代码内容 | <b>16</b> 点赞</a><br><a href="https://yunan.blog.csdn.net/article/details/148646857?spm=1011.2415.3001.5331">window.innerWidth 不准确 | <b>3</b> 点赞</a><br><a href="https://yunan.blog.csdn.net/article/details/148022400?spm=1011.2415.3001.5331">css 中 content “\e6d0“ 怎么变成图标的？ | <b>5</b> 点赞</a><br><a href="https://yunan.blog.csdn.net/article/details/147774369?spm=1011.2415.3001.5331">UniDevTools - UniApp(前端app)调试工具使用 | <b>11</b> 点赞</a><br><a href="https://yunan.blog.csdn.net/article/details/147701013?spm=1011.2415.3001.5331">4个纯CSS自定义的简单而优雅的滚动条样式 | <b>2</b> 点赞</a><br><a href="https://yunan.blog.csdn.net/article/details/147690949?spm=1011.2415.3001.5331">express 怎么搭建 WebSocket 服务器 | <b>5</b> 点赞</a><br><a href="https://yunan.blog.csdn.net/article/details/147600350?spm=1011.2415.3001.5331">vscode chrome调试怎么在所有浏览器都好使 | <b>13</b> 点赞</a><br><a href="https://yunan.blog.csdn.net/article/details/147491261?spm=1011.2415.3001.5331">JS toFixed的坑以及四舍五入实现方法 | <b>25</b> 点赞</a><br><a href="https://yunan.blog.csdn.net/article/details/146212997?spm=1011.2415.3001.5331">在windows10系统上搭建npm仓库源 | <b>9</b> 点赞</a><br><a href="https://yunan.blog.csdn.net/article/details/89195529?spm=1001.2014.3001.5502">java8 使用lamda遍历list怎么获取list下标 | <b>4</b> 点赞</a><br><a href="https://yunan.blog.csdn.net/article/details/86644614?spm=1001.2014.3001.5502">Python清空文件内容 | <b>6</b> 点赞</a><br><a href="https://yunan.blog.csdn.net/article/details/101517020?spm=1001.2014.3001.5502">类型“Element”上不存在属性“style” | <b>9</b> 点赞</a><br><a href="https://yunan.blog.csdn.net/article/details/162793493?spm=1011.2415.3001.5331">tauri 怎么实现窗口可拖拽 | <b>7</b> 点赞</a><br>
   -
     type: custom
 ---
