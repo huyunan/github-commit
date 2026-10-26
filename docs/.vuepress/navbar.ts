@@ -13,7 +13,8 @@ export const zhNavbar = defineNavbarConfig([
   {
     text: '工作内容',
     items: [
-      { text: '宜企拍', link: '/notes/yqp/README.md' }
+      { text: '宜企拍', link: '/notes/yqp/README.md' },
+      { text: '华为OD', link: '/notes/od/README.md' }
     ]
   },
   { text: '归档', link: '/blog/archives/' },
