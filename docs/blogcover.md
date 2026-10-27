@@ -7,7 +7,7 @@ groups:
     title: 本站相关
     list:
       -
-        name: Star 341
+        name: 小妖666
         link: https://theme-plume.vuejs.press
         avatar: https://theme-plume.vuejs.press/favicon-32x32.png
         desc: Fork 102
