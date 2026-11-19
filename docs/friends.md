@@ -27,7 +27,7 @@ groups:
       -
         name: 免费PDF在线转换器
         link: https://smallpdf.com/cn/pdf-to-jpg#r=convert-to-image
-        avatar: https://smallpdf.com/favicon.png
+        avatar: https://smallpdf.com/favicon.ico?v=1
         desc: 目前来看不收费，使用PDF转图像，像素很高，不带水印。
       -
         name: 一听音乐
@@ -51,8 +51,8 @@ groups:
         desc: 免费在线 GIF 动图压缩工具。
       -
         name: 在线 SVG 编辑
-        link: https://gtcolor.com/svg/index.html
-        avatar: https://gtcolor.com/svg/images/logo.png
+        link: https://svgview.com/zh/svg-editor#google_vignette
+        avatar: https://svgview.com/favicon.ico
         desc: 免费在线 SVG 编辑。
       -
         name: freeconvert
@@ -67,8 +67,28 @@ groups:
       -
         name: excel在线图表生成工具
         link: https://www.meta-chart.com/pie#/your-charts
-        avatar: https://www.meta-chart.com/assets/images/logo.png
+        avatar: https://mms1.baidu.com/it/u=1431721671,4203798397&fm=253&app=138&f=GIF?w=625&h=469
         desc: 试过可以生成很漂亮的圆形图，截屏保存后可以用在PPT中。
+      -
+        name: 在线音频转文字
+        link: https://neatscribe.com/zh/transcribe/task
+        avatar: https://neatscribe.com/logo.svg?dpl=v0301
+        desc: 免费音频转写工具。
+      -
+        name: IP查询网
+        link: https://site.ip138.com/2v56.cc/whois.htm
+        avatar: https://site.ip138.com/favicon.ico
+        desc: 可查询域名注册信息。
+      -
+        name: 识典古籍
+        link: https://www.shidianguji.com/
+        avatar: https://lf3-static.bytednsdoc.com/obj/eden-cn/ipsaulpjuh_yzj_zlp/ljhwZthlaukjlkulzlp/logo/logo.ico
+        desc: 很全的电子书网站。
+      -
+        name: 在线五笔
+        link: http://www.daziba.cn/wbdic/
+        avatar: http://www.daziba.cn/favicon.ico
+        desc: 五笔字根查询。
 ---
 
 <!-- 自定义内容 markdown 内容 会插入到 友情链接页中 -->
