@@ -18,7 +18,7 @@ config:
         -
           theme: alt
           text: CSDN博客 →
-          link: https://blog.csdn.net/weixin_38883338
+          link: https://yunan.blog.csdn.net/?type=lately
   -
     type: features
     title: 个人网站与工具
